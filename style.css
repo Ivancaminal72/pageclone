@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+ul > li,
+header > ul,
+header > div,
+nav > div {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: small;
+}
+
+div > ul {
+  vertical-align: middle;
+}
+
+#area_privada {
+  background-color: blueviolet;
+  padding: 1rem;
+}
+
+#area_privada > a {
+  color: white;
+  font-size: small;
+}
+
+.div_nav {
+  height: 5rem;
+}
+
+#img2 {
+  width: 16rem;
+  vertical-align: ;
+}
+
+#img1 {
+  width: 100%;
+}
