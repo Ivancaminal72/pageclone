@@ -134,10 +134,10 @@ main section .metadata span {
   margin-right: 1em;
 }
 
-footer {
+#footerflex {
   padding-top: 3em;
   background-color: rgb(29, 29, 29);
-  height: 30em;
+  height: 25em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -145,8 +145,32 @@ footer {
 
 .titolfooter {
   color: gray;
+  margin-top: 3em;
 }
 
 footer p {
   color: white;
+}
+
+strong {
+  font-size: x-large;
+}
+
+#refooter {
+  background-color: rgb(22, 22, 22);
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#refooter img {
+  width: 20em;
+  padding-left: 2em;
+}
+
+#refooter p {
+  font-size: small;
+  padding-right: 2em;
 }
